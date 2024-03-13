@@ -1,6 +1,7 @@
 // Stampare sulla pagina (anche brutalmente, basta che si vedano) gli elementi della lista individualmente.
 // Svolgete questo esercizio in 2 versioni: col ciclo for e col ciclo while.
 
+//creo la lista del for
 const list = [
     'Latte',
     'Cacao',
@@ -9,3 +10,7 @@ const list = [
     'Pomodori',
     'Piatti pronti'
 ];
+//stampa la lista 
+for(let i = 0; i < list.length; i++) {
+    console.log(list[i]);
+}
